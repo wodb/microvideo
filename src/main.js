@@ -7,6 +7,7 @@ import './icons' // icon
 import * as filters from './filters/index'
 
 import 'normalize.css/normalize.css'
+import './styles/index.scss'
 
 Object.keys(filters).forEach(element => {
   Vue.filters(element, filters[element])
