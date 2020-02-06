@@ -5,6 +5,7 @@ import store from './store'
 import './plugins/element.js'
 import './icons' // icon
 import * as filters from './filters/index'
+import './permission'
 
 import 'normalize.css/normalize.css'
 import './styles/index.scss'

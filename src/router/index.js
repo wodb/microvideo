@@ -14,7 +14,8 @@ const routes = [
       {
         path: '/home',
         name: 'home',
-        component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue')
+        component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue'),
+        meta: { title: '首页' }
       },
       {
         path: '/about',
